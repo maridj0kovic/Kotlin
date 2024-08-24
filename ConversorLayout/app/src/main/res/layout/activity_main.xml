@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:id="@+id/textNomeTurma"
+        android:gravity="center"
+        android:text="Eduarda \n 1204"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editValor"
+        android:hint="Digite o Valor"
+        android:inputType="number|numberDecimal"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTaxa"
+        android:hint="Digite a taxa"
+        android:inputType="number|numberDecimal"
+        android:layout_margin="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clicar"
+        android:id="@+id/buttonClicar"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:id="@+id/textResultado"
+        android:gravity="center"
+        android:text="R$"/>
+
+</LinearLayout>
